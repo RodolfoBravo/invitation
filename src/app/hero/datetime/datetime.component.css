@@ -1,0 +1,27 @@
+p{
+    width: 350px;
+}
+h3{
+    color: rgb(87, 165, 255);
+}
+.count-bg{
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    
+}
+.number{
+    font-family: 'Century Gothic','Perpetua', 'Lucida Bright';
+    font-weight: bold;
+    font-size: 40px;
+}
+.text{
+    font-family: 'Century Gothic','Lucida Bright', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+br{
+    white-space: pre;
+}
+
