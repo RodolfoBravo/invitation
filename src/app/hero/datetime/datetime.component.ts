@@ -25,7 +25,7 @@ export class DatetimeComponent implements OnInit {
       
       this.clock = this.source.subscribe(t => {
         this.now = new Date();
-        this.end = new Date('06/10/' + (this.now.getFullYear()) +' 00:00'); // date to start 
+        this.end = new Date('06/15/' + (this.now.getFullYear()) +' 00:00'); // date to start 
         this.showDate();
       });
       

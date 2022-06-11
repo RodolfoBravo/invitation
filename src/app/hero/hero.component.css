@@ -1,5 +1,10 @@
-h1{
-    color: rgb(45, 68, 88);
-    font-size: 80px;
-    font-family: 'Quicksand';
+h1 {
+    color: rgb(33, 34, 34);
+    font-size: 100px;
+    font-family: 'Edwardian Script ITC','Calisto MT','baskerville Old Face';
+}
+p {
+    font-family: 'baskerville Old Face';
+    font-size: 30px;
+    font-style: bold;
 }

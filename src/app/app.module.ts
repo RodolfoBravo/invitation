@@ -9,7 +9,7 @@ import { DatetimeComponent } from './hero/datetime/datetime.component';
 import { HeroBackgroundComponent } from './hero/hero-background/hero-background.component';
 import { LocationComponent } from './location/location.component';
 import { LocationImagesComponent } from './location/location-images/location-images.component';
-import { LocationInformationComponent } from './location/location-information/location-information.component';
+import { LocationRoomComponent } from './location/location-room/location-room.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { LocationInformationComponent } from './location/location-information/lo
     HeroBackgroundComponent,
     LocationComponent,
     LocationImagesComponent,
-    LocationInformationComponent
+    LocationRoomComponent,
   ],
   imports: [
     BrowserModule,

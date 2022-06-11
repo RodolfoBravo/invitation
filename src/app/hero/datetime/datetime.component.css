@@ -9,6 +9,7 @@ h3{
     height: auto;
     text-align: center;
     align-items: center;
+    background-color: #e1f5fe48;
     
 }
 .number{
@@ -24,4 +25,3 @@ h3{
 br{
     white-space: pre;
 }
-
