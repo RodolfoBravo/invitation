@@ -10,6 +10,9 @@ import { HeroBackgroundComponent } from './hero/hero-background/hero-background.
 import { LocationComponent } from './location/location.component';
 import { LocationImagesComponent } from './location/location-images/location-images.component';
 import { LocationRoomComponent } from './location/location-room/location-room.component';
+import { PeopleComponent } from './people/people.component';
+import { CoupleComponent } from './people/couple/couple.component';
+import { GodparentsComponent } from './people/godparents/godparents.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { LocationRoomComponent } from './location/location-room/location-room.co
     LocationComponent,
     LocationImagesComponent,
     LocationRoomComponent,
+    PeopleComponent,
+    CoupleComponent,
+    GodparentsComponent,
   ],
   imports: [
     BrowserModule,

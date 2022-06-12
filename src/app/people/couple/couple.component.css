@@ -1,0 +1,20 @@
+img {
+    height: 100%;
+    -webkit-box-shadow: 10px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px 1px #444444, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+h2 {
+    color: rgb(33, 34, 34);
+    font-size: 60px;
+    font-family: 'Edwardian Script ITC','Calisto MT','baskerville Old Face';
+}
+p {
+    font-family: 'baskerville Old Face';
+    font-size: 30px;
+    font-style: bold;
+}
+
+figcaption {
+    font-size: 16px;
+}
