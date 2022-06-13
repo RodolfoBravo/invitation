@@ -13,6 +13,9 @@ import { LocationRoomComponent } from './location/location-room/location-room.co
 import { PeopleComponent } from './people/people.component';
 import { CoupleComponent } from './people/couple/couple.component';
 import { GodparentsComponent } from './people/godparents/godparents.component';
+import { GiftsComponent } from './gifts/gifts.component';
+import { InformationComponent } from './information/information.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { GodparentsComponent } from './people/godparents/godparents.component';
     PeopleComponent,
     CoupleComponent,
     GodparentsComponent,
+    GiftsComponent,
+    InformationComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

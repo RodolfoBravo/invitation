@@ -1,0 +1,44 @@
+.container {
+    -webkit-box-shadow: 0px 0px 25px 16px rgba(89,173,255,0.47); 
+box-shadow: 0px 0px 25px 16px rgba(89,173,255,0.47);
+-webkit-border-radius: 40px;
+-moz-border-radius: 40px;
+border-radius: 40px;
+}
+
+h1 {
+    color: rgb(33, 34, 34);
+    font-size: 100px;
+    font-family: 'Edwardian Script ITC', 'Calisto MT', 'baskerville Old Face';
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family:  'Calisto MT';
+}
+
+p {
+    font-family: 'baskerville Old Face';
+    font-size: 30px;
+    font-style: bold;
+}
+
+button {
+    width: 100%;
+}
+
+.box {
+    background: #eeffff5e;
+    
+}
+
+#num {
+    font-family: 'baskerville Old Face';
+    font-size: 25px;
+    font-style: bold;
+}
+
+#info {
+    font-family: 'baskerville Old Face';
+    font-size: 20px;
+}
