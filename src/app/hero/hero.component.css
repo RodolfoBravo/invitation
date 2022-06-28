@@ -9,9 +9,6 @@ p {
     font-size: 3rem;
 }
 
-.hero {
-    height: 55rem;
-}
 
 .background {
     position: absolute;
@@ -21,6 +18,12 @@ p {
     position: relative;
 }
 
+.hero {
+    height: 60rem;
+}
+
+
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
     h1{
@@ -29,11 +32,8 @@ p {
     p {
         font-size: 1.6rem;
     }
-    .hero {
-        height: 500px;
-    }
     .background {
-        position: relative;
+        position: block;
     }
     
 }
