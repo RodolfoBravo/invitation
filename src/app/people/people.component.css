@@ -1,5 +1,39 @@
 h1 {
     color: rgb(33, 34, 34);
-    font-size: 100px;
-    font-family: 'Edwardian Script ITC','Calisto MT','baskerville Old Face';
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
 }
+
+
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    h1{
+        font-size: 2.2rem;
+    }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+    h1{
+        font-size: 2.5rem;
+    }
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 2.9rem;
+    }
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1{
+        font-size: 3.5rem;
+    }
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}

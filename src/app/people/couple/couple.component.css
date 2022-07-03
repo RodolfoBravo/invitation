@@ -6,15 +6,78 @@ img {
 
 h2 {
     color: rgb(33, 34, 34);
-    font-size: 60px;
-    font-family: 'Edwardian Script ITC','Calisto MT','baskerville Old Face';
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
 }
 p {
-    font-family: 'baskerville Old Face';
-    font-size: 30px;
-    font-style: bold;
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
-figcaption {
-    font-size: 16px;
+
+
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    h2{
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        height: 70%;
+    }
 }
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+    h2{
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    img {
+        height: 75%;
+    }
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h2{
+        font-size: 2.4rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    img {
+        height: 80%;
+    }
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    h2{
+        font-size: 2.8rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+
+    img {
+        height: 90%;
+    }
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}
