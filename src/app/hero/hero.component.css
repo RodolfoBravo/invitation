@@ -5,12 +5,12 @@
 h1 {
     color: rgb(33, 34, 34);
     font-size: 6rem;
-    font-family: 'The Nautigal', cursive;
+    font-family: 'Great Vibes', cursive;
 }
 
 p {
-    font-family: 'Just Another Hand', cursive;
-    font-size: 3rem;
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 2rem;
 }
 
 
@@ -68,10 +68,27 @@ p {
 }
 
 /** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 2.9rem;
+        top: 0;
+    }
+    p {
+        font-size: 2rem;
+    }
+}
 
 /** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h1{
+        font-size: 3.5rem;
+        top: 0;
+    }
+    p {
+        font-size: 2.5rem;
+    }
+}
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
 @media (min-width: 1200px) {}

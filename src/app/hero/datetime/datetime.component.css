@@ -8,12 +8,13 @@
     
 }
 .number{
-    font-family: 'Lobster', cursive;
+    font-family: 'Cardo', serif;
     font-weight: bold;
     font-size: 2.5rem;
 }
 .text{
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'Cormorant Garamond', cursive;
+    font-weight: bold;
     font-size: 1.2rem;
     text-transform: uppercase;
 }
@@ -26,5 +27,8 @@ br{
         font-size: 1.5rem;;
     }
     
+    .text {
+        font-size: 0.8rem;
+    }
 }
 
