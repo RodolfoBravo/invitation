@@ -32,6 +32,10 @@ p {
     img {
         height: 70%;
     }
+
+    .style{
+        flex-direction: column;
+    }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */

@@ -15,6 +15,7 @@ import { GodparentsComponent } from './people/godparents/godparents.component';
 import { GiftsComponent } from './gifts/gifts.component';
 import { InformationComponent } from './information/information.component';
 import { FooterComponent } from './footer/footer.component';
+import { SpotifyComponent } from './spotify/spotify.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { FooterComponent } from './footer/footer.component';
     GiftsComponent,
     InformationComponent,
     FooterComponent,
+    SpotifyComponent,
   ],
   imports: [
     BrowserModule,
