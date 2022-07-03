@@ -1,0 +1,74 @@
+* {
+    text-align: center;
+} 
+
+h1 {
+    color: rgb(33, 34, 34);
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+p {
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+iframe {
+    width: 80%;
+    height: 400px;
+}
+
+
+
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    h1{
+        font-size: 2.2rem;
+        top: 0;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    
+    
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+    h1{
+        font-size: 2.5rem;
+        top: 0;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 2.9rem;
+        top: 0;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h1{
+        font-size: 3.5rem;
+        top: 0;
+    }
+    p {
+        font-size: 1.8rem;
+    }
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}
