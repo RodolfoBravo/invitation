@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NgwWowModule } from 'ngx-wow'; // configuration for use library Wow.js
 import { HeroComponent } from './hero/hero.component';
 import { DatetimeComponent } from './hero/datetime/datetime.component';
-import { HeroBackgroundComponent } from './hero/hero-background/hero-background.component';
 import { LocationComponent } from './location/location.component';
 import { LocationImagesComponent } from './location/location-images/location-images.component';
 import { LocationRoomComponent } from './location/location-room/location-room.component';
@@ -22,7 +21,6 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeroComponent,
     DatetimeComponent,
-    HeroBackgroundComponent,
     LocationComponent,
     LocationImagesComponent,
     LocationRoomComponent,

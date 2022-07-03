@@ -20,3 +20,11 @@
 br{
     white-space: pre;
 }
+
+@media (max-width: 575px) {
+    .number {
+        font-size: 1.5rem;;
+    }
+    
+}
+
