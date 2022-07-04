@@ -1,44 +1,130 @@
-.style {
-    text-align: left;
-    font-size: 1.3em;
-    color: black;
-}
-
-.container{}
 
 h1 {
     color: rgb(33, 34, 34);
-    font-size: 100px;
-    font-family: 'Edwardian Script ITC', 'Calisto MT', 'baskerville Old Face';
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
 }
 
-h3 {
-    font-size: 1.5em;
-    font-family:  'Calisto MT';
+h5 {
+    color: rgb(33, 34, 34);
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', cursive;
 }
 
 p {
-    font-family: 'baskerville Old Face';
-    font-size: 30px;
-    font-style: bold;
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 2rem;
 }
 
-button {
-    color: black;
-    font-size: 1.7em;
-    width: 40%;
-    background-color: #5aa8ec;
-}
-
-img {
+.img1 {
+    width: 100%;
     -webkit-box-shadow: 10px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 13px 1px #444444, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
+
+
 #msj {
-    -webkit-box-shadow: 0px 0px 8px 3px #b1dcf7; 
-box-shadow: 0px 0px 8px 3px #bce1f8;
--webkit-border-radius: 40px;
--moz-border-radius: 40px;
-border-radius: 40px;
+    text-align: center;
 }
+
+button {
+    width: 20rem;
+    font-family: 'Cormorant Garamond', cursive;
+    font-size: 1.5rem;
+}
+
+form {
+    font-family: 'Cormorant Garamond', cursive;
+    
+}
+
+#email {
+    font-size: 1.2rem;
+}
+
+#name {
+    font-size: 1.2rem;
+}
+
+#message {
+   font-size: 1.2rem; 
+}
+
+.box-img {
+    justify-content: end;
+}
+
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+    h1{
+        font-size: 2.2rem;
+        top: 0;
+    }
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    .box-img {
+        justify-content: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        
+        width: 12rem;}
+    
+    
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+    h1{
+        font-size: 2.5rem;
+        top: 0;
+    }
+    h5 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+    h1{
+        font-size: 2.9rem;
+        top: 0;
+    }
+    h5 {
+        font-size: 1.6rem;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h1{
+        font-size: 3.5rem;
+        top: 0;
+    }
+    h5 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {}

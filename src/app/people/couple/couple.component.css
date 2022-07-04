@@ -36,6 +36,11 @@ p {
     .style{
         flex-direction: column;
     }
+
+    .box-couple {
+        height: 80%;
+        margin-bottom: 30px;
+    }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
@@ -50,6 +55,11 @@ p {
 
     img {
         height: 75%;
+    }
+
+    .box-couple {
+        height: 80%;
+        margin-bottom: 30px;
     }
 }
 
